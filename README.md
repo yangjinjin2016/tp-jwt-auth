@@ -6,7 +6,7 @@
 
 ## 环境要求
 
-1. php >= 7.0
+1. php >= 5.6
 2. thinkphp ^5.1.10 || ^6.0.0
 
 ## 说明
@@ -92,9 +92,9 @@ token传参方式如下：
 ## 参考与借鉴
 
 https://github.com/tymondesigns/jwt-auth
-
+https://packagist.org/packages/thans/tp-jwt-auth
 ## 感谢
-
+-Thans <360641274@qq.com>
 - jwt-auth
 - php
 - lcobucci/jwt
