@@ -1,17 +1,16 @@
 {
     "name": "yjj/tp-jwt-auth",
     "description": "thinkphp  jwt auth composer",
-    "type": "library",
     "require": {
-        "php": ">=5.6",
-        "lcobucci/jwt": "^3.3",
-        "topthink/framework": "^5.1.10 || ^6.0.0"
+        "php": ">=5.6"
     },
     "license": "MIT",
+    "minimum-stability": "stable",
+    "version": "v1.1",
     "authors": [
         {
-            "name": "Thans",
-            "email": "360641274@qq.com"
+            "name": "yjj",
+            "email": "862871626@qq.com"
         }
     ],
     "autoload": {
@@ -31,6 +30,6 @@
                 "jwt": "config/config.php"
             }
         }
-    },
-    "minimum-stability": "dev"
+    }
+
 }
