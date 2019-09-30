@@ -31,6 +31,6 @@
                 "jwt": "config/config.php"
             }
         }
-    },
- 
+    }
+
 }
