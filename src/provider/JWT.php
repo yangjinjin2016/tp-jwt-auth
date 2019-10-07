@@ -25,9 +25,9 @@ class JWT
         $this->request = $request;
         $config        = require __DIR__.'/../../config/config.php';
         if (strpos(App::VERSION, '6.0') !== false) {
-            $this->config = array_merge($config, Config::get('jwt') ?? []);
+            $this->config = array_merge($config, !empty(Config::get('jwt')) ?Config::get('jwt'): []);
         } else {
-            $this->config = array_merge($config, Config::get('jwt.') ?? []);
+            $this->config = array_merge($config, !empty(Config::get('jwt.')) ?Config::get('jwt.'): []);
         }
     }
 
